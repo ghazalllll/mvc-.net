@@ -1,0 +1,11 @@
+﻿@using tamrin_ba_ghazale.Data.Enum
+@using tamrin_ba_ghazale.ViewModels
+@model tamrin_ba_ghazale.Models.Club
+
+<form>
+    <div class="form-group">
+        <lable asp-for="Title">Title </lable>
+        <input asp-for="Title" class="form-control" placeholder="Title"></input>
+        <span asp-validation-for="Title"></span>
+        </div>
+</form>

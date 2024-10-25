@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\tamrin ba ghazale.props" />
+</Project>
