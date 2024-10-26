@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\datalink\\Desktop\\c#\\tamrin ba ghazale\\tamrin ba ghazale\\tamrin ba ghazale.csproj": {}
+    "C:\\Users\\asus\\Desktop\\tamrin ba ghazale\\tamrin ba ghazale\\tamrin ba ghazale.csproj": {}
   },
   "projects": {
-    "C:\\Users\\datalink\\Desktop\\c#\\tamrin ba ghazale\\tamrin ba ghazale\\tamrin ba ghazale.csproj": {
+    "C:\\Users\\asus\\Desktop\\tamrin ba ghazale\\tamrin ba ghazale\\tamrin ba ghazale.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\datalink\\Desktop\\c#\\tamrin ba ghazale\\tamrin ba ghazale\\tamrin ba ghazale.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\tamrin ba ghazale\\tamrin ba ghazale\\tamrin ba ghazale.csproj",
         "projectName": "tamrin ba ghazale",
-        "projectPath": "C:\\Users\\datalink\\Desktop\\c#\\tamrin ba ghazale\\tamrin ba ghazale\\tamrin ba ghazale.csproj",
-        "packagesPath": "C:\\Users\\datalink\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\datalink\\Desktop\\c#\\tamrin ba ghazale\\tamrin ba ghazale\\obj\\",
+        "projectPath": "C:\\Users\\asus\\Desktop\\tamrin ba ghazale\\tamrin ba ghazale\\tamrin ba ghazale.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\tamrin ba ghazale\\tamrin ba ghazale\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\datalink\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

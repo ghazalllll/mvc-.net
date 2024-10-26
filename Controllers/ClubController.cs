@@ -2,14 +2,15 @@
 using tamrin_ba_ghazale.Data;
 using tamrin_ba_ghazale.Models;
 using Microsoft.EntityFrameworkCore;
+using tamrin_ba_ghazale.Repository;
 using tamrin_ba_ghazale.Repository.service;
 
 namespace tamrin_ba_ghazale.Controllers
 {
     public class ClubController : Controller
     {
-        private readonly ClubRepository _clubRepository;
-        public ClubController(ClubRepository clubRepository)
+        private readonly IClubInterface _clubRepository;
+        public ClubController(IClubInterface clubRepository)
         {
             _clubRepository = clubRepository;
         }
